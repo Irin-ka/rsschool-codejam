@@ -1,4 +1,4 @@
-function recursion(tr,arr=[[]],i=0){
+module.exports = function recursion(tr,arr=[[]],i=0){
  arr[i].push(tr.value);
  if(tr.left){
   if(!Array.isArray(arr[i+1])) arr.push([]);

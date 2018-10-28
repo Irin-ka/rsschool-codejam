@@ -1,4 +1,4 @@
-let make =(function(){
+module.exports = (function(){
  let arr =[];
  function x1(){
   for(let i=0;i<arguments.length;i++){
